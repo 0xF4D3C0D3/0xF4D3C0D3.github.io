@@ -76,7 +76,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : <meta name="google-site-verification" content="zhgnQiEMqh-d9M7E6nVAUO9mR-nIJC_oukgRhQ5paf4" />
+google_site_verification : zhgnQiEMqh-d9M7E6nVAUO9mR-nIJC_oukgRhQ5paf4
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  : 31984a1725c43b9f6830b91edc0c5abd69ad880a
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/0xF4D3C0D3"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -142,7 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/0xF4D3C0D3"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
