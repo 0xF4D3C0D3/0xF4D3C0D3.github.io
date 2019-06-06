@@ -76,7 +76,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : <meta name="google-site-verification" content="zhgnQiEMqh-d9M7E6nVAUO9mR-nIJC_oukgRhQ5paf4" />
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  : 31984a1725c43b9f6830b91edc0c5abd69ad880a
@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "0xF4D3C0D3"
+  avatar           : /assets/img/profile.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Interested in better design"
+  location         : "Seoul, Korea"
+  email            : dongho971220@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
