@@ -5,26 +5,15 @@ comments: true
 ---
 
 ## Overview
-Kor Name: Jung DongHo, 정동호  
-Eng Name: Andrew
-  
-Abstract: Interested in better design
+Kor name -> Jung DongHo, 정동호
+Eng name -> Andrew
+Nickname -> 0xF4D3C0D3
+
+## About me
+Having started my career from the digital forensic, a part of the information security, then in the back-end engineering now.  
+I said back-end, but I'm also interested in broad topics like Cloud, OOP, DB, Network, Container, PL, DevOps, etc....  
 
 
-## About
-Having started my career from junior in the security field, then I've been in the backend engineering.
-
-My strength is agile and stable programming skills as follows:
- - Experienced python skill for quick Implementation of PoC/product with changeable requirements.
- - Go(Golang) skill with static type, compilation and native binary, which complementary to python, when high performance is necessary.
- - Learning OOP to design a well-structured program.
- - Basic DB skill, started from MySQL then I'm using Postgresql now.
- - Shallow but wide experience, besides above, I've dealt with VB6.0/AS2.0/WPF/WinForm/HTML/CSS/JS/Processing/C/C++/MySQL/Digital forensic but not now. 
-
-
-## Experience
-```
-Infrastructure Engineer / Performance Marketer:
-  - @Buzzin inc
-  - Aug 2018 $\to$ Now
-```
+## About here
+As you already know, I'm not a native English speaker and have poor English skill too. But I think not using English makes my English skill get worse. To get over it, I'll manage this blog with English.
+This blog will be used with mainly six categories as Tutorials / How-to guides / Explanation / Reference / Life / English.
