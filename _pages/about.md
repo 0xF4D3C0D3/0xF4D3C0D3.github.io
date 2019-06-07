@@ -5,9 +5,9 @@ comments: true
 ---
 
 ## Overview
-Kor name -> Jung DongHo, 정동호
-Eng name -> Andrew
-Nickname -> 0xF4D3C0D3
+Kor name $\to$ Jung DongHo, 정동호  
+Eng name $\to$ Andrew  
+Nickname $\to$ 0xF4D3C0D3  
 
 ## About me
 Having started my career from the digital forensic, a part of the information security, then in the back-end engineering now.  
