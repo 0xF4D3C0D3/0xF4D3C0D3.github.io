@@ -295,5 +295,5 @@ defaults:
       related: true
       
 remote_theme: mmistakes/minimal-mistakes
-head_scripts:
-  - /assets/js/mathjax.js
+# head_scripts:
+#   - /assets/js/mathjax.js
