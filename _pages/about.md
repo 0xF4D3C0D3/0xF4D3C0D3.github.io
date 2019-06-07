@@ -27,7 +27,7 @@ This blog will be used with mainly six categories as Tutorials / How-to guides /
 
 1. Undergraduate researcher - Network lab
   - Kwangwoon Univ
-  - Jul 2017  $\to$ Jan 2018
+  - Sep 2017  $\to$ Jan 2018
   - Nowon-gu, Seoul, Korea
 
 1. 8th SW Maestro
