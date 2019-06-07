@@ -2,7 +2,6 @@
 title: "About 0xF4D3C0D3"
 permalink: /about/
 comments: true
-classes: wide
 ---
 
 ## Overview
