@@ -11,7 +11,7 @@ Nickname $\to$ 0xF4D3C0D3
 
 ## About me
 Having started my career from the digital forensic, a part of the information security, then in the back-end engineering now.  
-I said back-end, but I'm also interested in broad topics like Cloud, OOP, DB, Network, Container, PL, DevOps, etc....  
+I said back-end, but I'm also interested in broad topics like Cloud, OOP, DB, Network, Container, Microservice, DevOps, etc....  
 
 
 ## About here
