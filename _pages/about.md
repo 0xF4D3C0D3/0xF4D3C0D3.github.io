@@ -4,14 +4,14 @@ permalink: /about/
 comments: true
 ---
 
-# Overview
+## Overview
 Kor Name: Jung DongHo, 정동호  
 Eng Name: Andrew
   
 Abstract: Interested in better design
 
 
-# About
+## About
 Having started my career from junior in the security field, then I've been in the backend engineering.
 
 My strength is agile and stable programming skills as follows:
@@ -22,7 +22,9 @@ My strength is agile and stable programming skills as follows:
  - Shallow but wide experience, besides above, I've dealt with VB6.0/AS2.0/WPF/WinForm/HTML/CSS/JS/Processing/C/C++/MySQL/Digital forensic but not now. 
 
 
-# Experience
+## Experience
+```
 Infrastructure Engineer / Performance Marketer:
   - @Buzzin inc
   - Aug 2018 $\to$ Now
+```
