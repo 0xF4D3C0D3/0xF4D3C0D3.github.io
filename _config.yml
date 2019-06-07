@@ -293,6 +293,16 @@ defaults:
       comments: true
       share: false
       related: true
+  - scope:
+      path: ""
+      type: page
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: false
+      related: true
       
 remote_theme: mmistakes/minimal-mistakes
 # head_scripts:
