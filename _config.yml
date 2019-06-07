@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "0xF4D3C0D3"
-  avatar           : /assets/img/profile-avatar.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/img/profile.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Interested in better design"
   location         : "Seoul, Korea"
   email            : dongho971220@gmail.com
