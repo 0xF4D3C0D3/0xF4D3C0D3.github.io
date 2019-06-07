@@ -50,4 +50,4 @@ There are four categories in the tech blog:
 
 ---
 
-Above devision makes writing and reading posts easier in *How to write*, *What to write*, "*Where to write*" perspectives.
+Above devision makes writing and reading posts easier in *How to write*, *What to write*, *Where to write* perspectives.
