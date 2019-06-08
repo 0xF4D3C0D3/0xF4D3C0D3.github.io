@@ -1,5 +1,5 @@
 ---
-title: "Obfuscate to double in C++"
+title: "Obfuscate string to double in C++"
 date: 2019-06-08 15:43:00 +0900
 categories: ref snippet
 ---
