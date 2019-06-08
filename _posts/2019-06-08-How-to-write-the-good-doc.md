@@ -2,11 +2,10 @@
 title: "How to write the good doc [WIP]"
 date: 2019-06-08 02:00:00 +0900
 categories: how-to doc
+toc: true
 ---
 
 > This post cited from [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
-
-{:toc}
 
 ## Introduction
 Many people try to write good docs, but most of them fail.
@@ -52,7 +51,7 @@ There are four categories in the documentation of the software:
 
 ---
 
-Above devision makes writing and reading posts easier in *How to write*, *What to write*, *Where to write* perspectives.
+Above division makes writing and reading posts easier in *How to write*, *What to write*, *Where to write* perspectives.
 
 ### Project documentation
 Q $\to$ Where do things like *changelogs*, *contribution policy*, *other information about the project* go into which category?  
