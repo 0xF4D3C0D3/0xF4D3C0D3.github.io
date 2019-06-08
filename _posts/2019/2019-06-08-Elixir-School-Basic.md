@@ -86,7 +86,7 @@ false
 Elixir has `true` and `false` for booleans; everything is handled as true except for `false` or `nil`
 
 ### Atoms
-~~~Elixir
+~~~ Elixir
 iex> :foo
 :foo
 iex> :foo == :bar
@@ -94,7 +94,7 @@ false
 ~~~
 An atom is a constant whose name is its value itself. 
 
-~~~Elixir
+~~~ Elixir
 iex> true |> is_atom
 true
 iex> :true |> is_boolean
@@ -103,3 +103,9 @@ iex> :true === true
 true
 ~~~
 A boolean is actually just an atom. `true` and `false` are `:true` and `:false` respectively.
+
+~~~ Elixir
+iex> is_atom(MyApp.MyModule)
+true
+~~~
+Names of mudules in elixir are also atoms.
