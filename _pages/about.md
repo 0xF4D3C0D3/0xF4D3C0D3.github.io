@@ -59,7 +59,6 @@ This blog will be used with mainly 7 categories as follows:
 
 1. Python
 1. Go
-1. AWS
 
 ### Industry Knowledge
 
@@ -73,10 +72,11 @@ This blog will be used with mainly 7 categories as follows:
 1. Linux
 1. Window
 1. Mac
+1. Git
 
 ### Other Skills
 
-1. Kubertes
+1. Kubernetes
 
 ## Accomplishments
 
