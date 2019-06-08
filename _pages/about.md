@@ -107,34 +107,35 @@ This blog will be used with mainly 7 categories as follows:
   - Nov 2016
   
 1. Integrating artifacts by using powershell
-  - Oct 2016
   - Korean National Police University
+  - Oct 2016
   
 ### Honors & Awards
 
 1. KDFS Digital Forensic Challenge Grand Prize
   - Korean National Police Agency
-  - Nov 2018
   - Win the first prize 
+  - Nov 2018
 
 1. Military Service Information Public Data Utilization Contest Grand Prize
   - Military Manpower Administration
-  - Oct 2018
   - Win the first prize
+  - Oct 2018
 
 1. Winter Conference Best Paper Award
   - Korean Digital Forensic Society
-  - Dec 2017
   - Win the best paper award
+  - Dec 2017
 
 1. MIDAS 2th Hackathon
   - MIDAS Information Technology Co
-  - May 2017
   - Not awarded
+  - May 2017
 
 1. Kwanwoon & Kookmin Univ 1st SW Challenge
   - Kwanwoon & Kookmin university
   - Win the first prize
+  - Sep 2017
   
 ### Languages
 
