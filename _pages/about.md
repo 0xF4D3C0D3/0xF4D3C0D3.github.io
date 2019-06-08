@@ -16,10 +16,16 @@ I said back-end, but I'm also interested in broad topics like Cloud, OOP, DB, Ne
 
 ## About here
 As you already know, I'm not a native English speaker and have poor English skill too. But I think not using English makes my English skill get worse. To get over it, I'll manage this blog with English.
-This blog will be used with mainly 7 categories as follows:  
-- Tutorials / How-to guides / Explanation / Reference
-- Life / English / Misc
-
+This blog will be used with mainly 4 categories as follows:
+- Doc:
+  - Tutoria / Guide /Explanation / Reference
+- Study:
+  - Programming / Design
+  - OS / Network / Security / DB
+  - English / Math / Science
+- Life:
+  - Music / Philosophy / News
+- Misc
 ## Experience
 
 1. Infrastructure Engineer / Performance Marketer
