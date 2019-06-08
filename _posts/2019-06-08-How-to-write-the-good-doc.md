@@ -6,14 +6,14 @@ toc: true
 toc_label: "Table Of Contents"
 ---
 
-> This post cited from [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
-
 ## Introduction
 Many people try to write good docs, but most of them fail.
 Why do they fail (include me)?
 That's because we have done it in the wrong way.
 How can we do it better?
 Let's read [What nobody tells you about documentation](https://www.divio.com/blog/documentation/) to write better docs
+
+> This post cited from [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
 
 ## The secret
 There are four categories in the documentation of the software:
