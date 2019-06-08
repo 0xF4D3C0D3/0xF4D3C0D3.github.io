@@ -1,8 +1,9 @@
 ---
-title: "How to write the good doc [WIP]"
+title: "How to write the good doc"
 date: 2019-06-08 02:00:00 +0900
 categories: how-to doc
 toc: true
+toc_label: "Table Of Contents"
 ---
 
 > This post cited from [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
@@ -76,7 +77,18 @@ A $\to$ None of them because they are *project documentation* rather than *softw
 1. **Leave only important things**, don't try to get completeness.
 1. **Name them well** to enough to the users should tell what it does.
 
-## How to write good reference guides?
-1. **Structure the documentation around the code**
+## How to write good reference?
+1. **Structure the documentation around the code** so that the user can navigate the doc and code at the same time.
+1. Make **structure, tone, format must all be consistent** like an encyclopedia.
+1. **Do nothing but describe** as clearly and completely as possible.
+1. **Keep it up-to-date and accurate.**
 
+## How to write good Explanation?
+1. **Provide context** that explaining why things are so &mdash; design decisions, historical reasons, technical constraints. 
+1. **Discuss alternatives and opinions** to provide multiple different approaches.
+1. **Do not instruct, or provide technical reference.** Do only what others(tutorial, guide, reference) can't do.
+
+---
+
+## Structure
 ![scheme](/assets/img/2019/what_nobody_tells_you_about_documentation_extract_3001.webp)
