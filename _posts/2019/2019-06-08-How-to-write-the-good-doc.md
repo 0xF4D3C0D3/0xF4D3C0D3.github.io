@@ -1,7 +1,7 @@
 ---
 title: "How to write the good doc"
 date: 2019-06-08 02:00:00 +0900
-categories: how-to doc
+categories: Doc Guide
 toc: true
 toc_label: "Table Of Contents"
 ---
