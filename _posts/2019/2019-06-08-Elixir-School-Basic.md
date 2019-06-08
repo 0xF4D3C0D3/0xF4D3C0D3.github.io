@@ -135,3 +135,105 @@ iex> "foo\nbar"
 There are more complex data types in Elixir, such as collections and functions.
 
 ## Basic Operations
+
+### Arithmetic
+~~~ elixir
+iex> 2 + 2
+4
+iex> 2 - 1
+1
+iex> 2 * 5
+10
+iex> 10 / 5
+2.0
+~~~
+Elixir has basic operators `+`, `-`, `*`, and, `/`. It's important that `/` always returns a float.
+
+~~~ elixir
+iex> div(10, 5)
+2
+iex> rem(10, 3)
+1
+~~~
+If you need integer division or remainder (i.e. modulo), use `div` / `rem` functions.
+
+### Boolean
+~~~ elixir
+iex> -20 || true
+-20
+iex> false || 42
+42
+
+iex> 42 && true
+true
+iex> 42 && nil
+nil
+
+iex> !42
+false
+iex> !false
+true
+~~~
+Elixir has the `||`, `&&`, and `!` for boolean operators. They are available to any types.
+
+~~~ elixir
+iex> true and 42
+42
+iex> false or true
+true
+iex> not false
+true
+iex> 42 and true
+** (ArgumentError) argument error: 42
+iex> not 42
+** (ArgumentError) argument error
+~~~
+There are three additional operators whose front argument must be a boolean(`true` or `false`).
+Note that `and` and `or` above are actually mapped to `andalso` and `orelse` in Erlang.
+
+### Comparison
+~~~ elixir
+iex> 1 > 2
+false
+iex> 1 != 2
+true
+iex> 2 == 2
+true
+iex> 2 <= 3
+true
+~~~
+Elixir has all the comparison operators &mdash; `==`, `!=`, `===`, `!==`, `<=`, `>=`, `<`, and `>`.
+
+~~~ elixir
+iex> 2 == 2.0
+true
+iex> 2 === 2.0
+false
+~~~
+To compare strictly, use `===`
+
+~~~ elixir
+number < atom < reference < function < port < pid < tuple < map < list < bitstring
+
+iex> :hello > 999
+true
+iex> {:hello, :world} > [1, 2, 3]
+false
+~~~
+In elixir, any types can be compared.
+
+### String Interpolation
+~~~ elixir
+iex> name = "Dong ho"
+iex> "Hello #{name}"
+"Hello Dong ho"
+~~~
+String interpolation in Elixir can be done as above.
+
+### String concatenation
+~~~ elixir
+iex> name = "Dong ho"
+iex> "Hello " <> name
+"Hello Dong ho"
+~~~
+String concatenation in Elxir can be done by `<>` operator
