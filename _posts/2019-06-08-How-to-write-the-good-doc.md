@@ -1,10 +1,12 @@
 ---
-title: "How to write doc of sw [WIP]"
+title: "How to write the good doc [WIP]"
 date: 2019-06-08 02:00:00 +0900
 categories: how-to doc
 ---
 
 > This post cited from [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
+
+{:toc}
 
 ## Introduction
 Many people try to write good docs, but most of them fail.
@@ -57,15 +59,25 @@ Q $\to$ Where do things like *changelogs*, *contribution policy*, *other informa
 A $\to$ None of them because they are *project documentation* rather than *software documentation*
 
 ## How to write good tutorials?
-1. Make the begginer can do something through your tutorials.
-1. Lower the barrier to entry to get the user easily started.
-1. Ensure the robust tutorial that can be done by students without a teacher is written.
-1. Let the beginners get small results, but meaningful and immediate, rather than the one big result.
-1. Make the tutorials be reliably repeatable regardless of OS, environment, level of users.
-1. Write the concrete steps, not abstract concepts.
-1. Provide the minimum necessary explanation, make it as a link if more explanation needed.
+1. **Make the begginer can do something** through your tutorials.
+1. **Lower the barrier to entry** to get the user easily started.
+1. **Ensure the robust tutorial** that can be done by students without a teacher is written.
+1. **Let the beginners get small results, but meaningful and immediate**, rather than the one big result.
+1. **Make the tutorials be reliably repeatable** regardless of OS, environment, level of users.
+1. **Write the concrete steps**, not abstract concepts.
+1. **Provide the minimum necessary explanation**, make it as a link if more explanation needed.
+1. **Focus only on steps the user needs to take**, don't be too verbose. 
 
 ## How to write good how-to guides?
-1. TODO
+1. **Provide a series of steps**, but don't need to lower barriers for starting point.
+1. **Focus on results achieving a practical goal.**
+1. **Give an speicific answer** about the question *How do I ...?*
+1. **Don't explain concepts**, rather link them.
+1. As requirements could be variability, **allow for some flexibility.**
+1. **Leave only important things**, don't try to get completeness.
+1. **Name them well** to enough to the users should tell what it does.
+
+## How to write good reference guides?
+1. **Structure the documentation around the code**
 
 ![scheme](/assets/img/2019/what_nobody_tells_you_about_documentation_extract_3001.webp)
