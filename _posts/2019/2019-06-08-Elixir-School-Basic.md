@@ -104,8 +104,8 @@ true
 ~~~
 A boolean is actually just an atom. `true` and `false` are `:true` and `:false` respectively.
 
-~~~ Elixir
+~~~ ruby
 iex> is_atom(MyApp.MyModule)
 true
 ~~~
-Names of mudules in elixir are also atoms.
+Names of modules in elixir are also atoms. `MyApp.MyModule` is a valid atom, even if no such module has been declared yet.
