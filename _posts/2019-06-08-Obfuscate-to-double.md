@@ -1,7 +1,7 @@
 ---
 title: "Obfuscate to double in C++"
 date: 2019-06-08 15:43:00 +0900
-categories: how-to ref
+categories: ref snippet
 ---
 
 ~~~cpp
