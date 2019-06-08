@@ -108,4 +108,30 @@ A boolean is actually just an atom. `true` and `false` are `:true` and `:false` 
 iex> is_atom(MyApp.MyModule)
 true
 ~~~
-Names of modules in elixir are also atoms. `MyApp.MyModule` is a valid atom, even if no such module has been declared yet.
+Names of modules in Elixir are also atoms. `MyApp.MyModule` is a valid atom, even if no such module has been declared yet.
+
+~~~ elixir
+iex> :crypto.strong_rand_bytes 3
+<<23, 104, 108>>
+~~~
+Atoms are also used to reference modules in Erlang libraries, including built-in ones.
+
+### Strings
+~~~ elixir
+iex> "Hello"
+"Hello"
+iex> "안녕!"
+"안녕!"
+~~~
+Strings in Elixir are UTF-8 encoded and are wrapped in double quotes. If you get *UnicodeConversionError* then you should start the iex with `--werl` option.
+
+~~~ elixir
+iex> "foo
+...> bar"
+"foo\nbar"
+iex> "foo\nbar"
+"foo\nbar"
+~~~
+There are more complex data types in Elixir, such as collections and functions.
+
+## Basic Operations
