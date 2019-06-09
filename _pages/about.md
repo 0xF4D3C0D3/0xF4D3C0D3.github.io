@@ -20,7 +20,7 @@ This blog will be used with mainly 4 categories as follows:
 - Doc:
   - Tutorial / Guide /Explanation / Reference
 - Study:
-  - Programming / Design
+  - Programming / Design / Algorithm
   - OS / Network / Security / DB
   - English / Math / Science
 - Life:
