@@ -55,7 +55,7 @@ search_linear([10, 20, 30, 25, 15, 5], 25) -> 3
 ~~~
 
 ### Note
-Time: `O(n)`. This is significantly inefficient than other algorithms.
+Time complexity $\to$ `O(n)`. This is significantly inefficient than other algorithms.
 
 ## Binary Search
 Binary search divides an given sorted array into two halves.
@@ -78,12 +78,12 @@ def search_binary(iterable, x):
     """
     search_binary gets an iterable of positive integers as fisrt argument and
     the target x as second argument. 
-    Returns matched index or -1 when it doesn't mactch with anything.
+    return matched index or -1 when it doesn't match with anything.
     """
     len_ = len(iterable)
     
     # if it won't be divided anymore, compare it with the target x
-    # When it matches, return 0. Otherwise, return -1
+    # when it matches, return 0. Otherwise, return -1
     if len_ == 1:
         if iterable[0] == x:
             return 0
@@ -91,11 +91,11 @@ def search_binary(iterable, x):
             return -1
 
     middle = iterable[len_ // 2]
-    if middle == x:  # If it matches with the middle, return the index of the middle
+    if middle == x:  # if it matches with the middle, return the index of the middle
         return len_ // 2
-    elif x < middle:  # Or if it is lower than the target x, call this function with the lower half recursively.
+    elif x < middle:  # or if it is lower than the target x, call this function with the lower half recursively.
         return search_binary(iterable[:len_ // 2], x)
-    else:  # Else call this function with the upper half recursively and 
+    else:  # else call this function with the upper half recursively and 
            # if its result is lower than 0, return -1. Otherwise return 1 + index of middle + its result
         upper_idx = search_binary(iterable[(len_ // 2) + 1:], x)
         if upper_idx < 0:
@@ -117,7 +117,7 @@ def search_binary(iterable, x, l=None, r=None):
     """
     search_binary gets an iterable of positive integers as fisrt argument and
     the target x as second argument. 
-    Returns matched index or -1 when it doesn't mactch with anything.
+    return matched index or -1 when it doesn't match with anything.
     """
     l = l or 0  
     r = r or len(iterable) - 1
@@ -134,3 +134,7 @@ def search_binary(iterable, x, l=None, r=None):
         return -1
 ~~~
 Somewhat complex interface, but simple implementation.
+
+### Note
+Time complexity $\to$ `T(n) = T(n/2) + c` $\to$ $\Theta(Log(n))$.
+Those codes only work in ascending sorted array.
