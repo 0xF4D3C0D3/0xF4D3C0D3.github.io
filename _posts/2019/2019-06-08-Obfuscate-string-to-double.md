@@ -5,7 +5,7 @@ categories: Study Programming
 ---
 
 ## Description
-This snippet gets string type and return it as double type. In this process, the original messages get obfuscated, but not encrypted.
+This snippet gets string type and returns it as double type. In this process, the original messages get obfuscated, but not encrypted.
 
 ~~~cpp
 #include <iostream>
