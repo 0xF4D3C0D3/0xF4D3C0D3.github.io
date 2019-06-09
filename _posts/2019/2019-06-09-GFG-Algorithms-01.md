@@ -186,3 +186,5 @@ def search_jump(iterable, x):
 
 ## Note
 It only works with a sorted iterable. The time complexity is $O(\sqrt{n})$ which is between $O(n)$ and $O(Logn)$.
+So why does the jump search used in spite of binary search($O(Logn)$)? The jump search is faster when the target x is small.
+To be extreme, the binary search needs $Logn$ steps. But the jump search can do it in fewer steps.
