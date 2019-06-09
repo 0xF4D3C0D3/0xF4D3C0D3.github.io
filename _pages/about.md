@@ -29,19 +29,19 @@ This blog will be used with mainly 4 categories as follows:
 ## Experience
 
 1. Infrastructure Engineer / Performance Marketer
-    -   Buzzni inc
-    -   Aug 2018 $\to$ Now
-    -   1832, Nambusunhwan-ro, Gwanak-gu, Seoul, Republic of Korea
+    - Buzzni inc
+    - Aug 2018 $\to$ Now
+    - 1832, Nambusunhwan-ro, Gwanak-gu, Seoul, Republic of Korea
 
 1. Undergraduate researcher - Network lab
-    -   Kwangwoon Univ
-    -   Sep 2017  $\to$ Jan 2018
-    -   Nowon-gu, Seoul, Korea
+    - Kwangwoon Univ
+    - Sep 2017  $\to$ Jan 2018
+    - Nowon-gu, Seoul, Korea
 
 1. 8th SW Maestro
-    -   SW Maestro w/ "Ministry of Science and ICT", "IITP"
-    -   Jun 2017 $\to$ Jan 2018
-    -   311, Teheran-ro, Gangnam-gu, Seoul, Republic of Korea
+    - SW Maestro w/ "Ministry of Science and ICT", "IITP"
+    - Jun 2017 $\to$ Jan 2018
+    - 311, Teheran-ro, Gangnam-gu, Seoul, Republic of Korea
 
 1. Top 30 - 5th Information Security Specialist & Digital Forensic Track 
     -   Best of the Best(BoB) w/ "Ministry of Science, ICT & Future Planning", "KITRI"
