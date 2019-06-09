@@ -190,4 +190,6 @@ So why does the jump search used in spite of binary search($O(Logn)$)? The jump 
 To be extreme, the binary search needs $Logn$ steps. But the jump search can do it in fewer steps.
 
 ## Interpolation Search
+Linear search is $O(n)$, jump search is $O(\sqrt{n})$, binary search is $O(Logn)$, and interpolation search is also 
+
 WIP TODO
