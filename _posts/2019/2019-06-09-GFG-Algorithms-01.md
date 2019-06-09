@@ -76,8 +76,8 @@ If there are no matched element till the length of the half is 1, return `sentin
 ~~~ python
 def search_binary(iterable, x):
     """
-    search_binary gets an iterable of positive integers as fisrt argument and
-    the target x as second argument. 
+    search_binary gets an **sorted** iterable of positive integers as fisrt argument
+    and the target x as second argument. 
     return matched index or -1 when it doesn't match with anything.
     """
     len_ = len(iterable)
@@ -115,8 +115,8 @@ Simple interface, but complex implementation.
 ~~~python
 def search_binary(iterable, x, l=None, r=None):
     """
-    search_binary gets an iterable of positive integers as fisrt argument and
-    the target x as second argument. 
+    search_binary gets an **sorted** iterable of positive integers as fisrt argument
+    and the target x as second argument. 
     return matched index or -1 when it doesn't match with anything.
     """
     l = l or 0  
@@ -153,3 +153,36 @@ $$y'= \frac{2m^2 - n - m^2}{m^2} \because \Big(\frac{f(x)}{g(x)}\Big)'\to \frac{
 $$=\frac{m^2-n}{m^2}$$  
 $\therefore y' = 0$ when $m = \sqrt{n}$  
 
+## Code
+~~~ python
+def search_jump(iterable, x):
+    """
+    search_jump gets an **sorted** iterable of positive integers as fisrt argument
+    and the target x as second argument.
+    Returns matched index or -1 when it doesn't mactch with anything.
+    """
+
+    # find the block size and initialize the index to the step
+    len_ = len(iterable)
+    step = int(len_ ** 0.5)
+    idx = step
+
+    # first compare block by block
+    while idx < len_:
+        if iterable[idx] > x:
+            break
+        idx += step
+
+    # then compare one by one
+    idx -= step
+    while idx < len_:
+        if iterable[idx] == x:
+            return idx
+        idx += 1
+
+    # if nothing matches, return -1
+    return -1
+~~~
+
+## Note
+It only works with a sorted iterable. The time complexity is `O($\sqrt{n}$)` which is between `O(n)` and `O($Logn$)`.
