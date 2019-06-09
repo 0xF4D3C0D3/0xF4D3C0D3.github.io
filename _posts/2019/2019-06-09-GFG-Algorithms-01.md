@@ -185,4 +185,4 @@ def search_jump(iterable, x):
 ~~~
 
 ## Note
-It only works with a sorted iterable. The time complexity is `O($\sqrt{n}$)` which is between `O(n)` and `O($Logn$)`.
+It only works with a sorted iterable. The time complexity is $O(\sqrt{n})$ which is between $O(n)$ and $O(Logn)$.
