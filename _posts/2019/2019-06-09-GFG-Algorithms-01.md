@@ -123,7 +123,7 @@ def search_binary(iterable, x, l=None, r=None):
     r = r or len(iterable) - 1
     
     if l <= r:
-        mid = l + (r - l)//2
+        mid = (l+r)//2
         if iterable[mid] == x:
             return mid
         elif iterable[mid] > x:
@@ -138,3 +138,17 @@ Somewhat complex interface, but simple implementation.
 ### Note
 Time complexity $\to$ `T(n) = T(n/2) + c` $\to$ $\Theta(Log(n))$.
 Those codes only work in ascending sorted array.
+
+## Jump Search
+The key idea of the jump search is a block. It starts from the leftmost of **sorted** array but unlike linear search,
+not one by one. Instead, block by block. If the first element of the current block is upper than the target x then
+perform a linear search in the previous block.
+
+> Note: What is the optimal block size?
+In the worst case, we have to access n/m blocks. So maximum count will be n/m + m.
+Then let x = n/m + m and n is fixed as the length of the list. To find the minimum, we find the m that makes slope zero.
+$$y = \frac{n}{m} + m$$
+$$=\frac{n + m^2}{m}$$
+$$y'= \frac{2m^2 - n - m^2}{m^2}\\ \because \Big(\frac{f(x)}{g(x)}\Big)'\to \frac{f'(x)g(x) - f(x)g'(x)}{(g(x))^2}$$
+$$=\frac{m^2-n}{m^2}$$
+$\therefore y' = 0$ when $m = \sqrt{n}$
