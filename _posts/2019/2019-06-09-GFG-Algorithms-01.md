@@ -147,8 +147,9 @@ perform a linear search in the previous block.
 > Note: What is the optimal block size?
 In the worst case, we have to access n/m blocks. So maximum count will be n/m + m.
 Then let x = n/m + m and n is fixed as the length of the list. To find the minimum, we find the m that makes slope zero.  
-$$y = \frac{n}{m} + m$$
-$$=\frac{n + m^2}{m}$$
-$$y'= \frac{2m^2 - n - m^2}{m^2} \because \Big(\frac{f(x)}{g(x)}\Big)'\to \frac{f'(x)g(x) - f(x)g'(x)}{(g(x))^2}$$
-$$=\frac{m^2-n}{m^2}$$
-$\therefore y' = 0$ when $m = \sqrt{n}$
+$$y = \frac{n}{m} + m$$  
+$$=\frac{n + m^2}{m}$$  
+$$y'= \frac{2m^2 - n - m^2}{m^2} \because \Big(\frac{f(x)}{g(x)}\Big)'\to \frac{f'(x)g(x) - f(x)g'(x)}{(g(x))^2}$$  
+$$=\frac{m^2-n}{m^2}$$  
+$\therefore y' = 0$ when $m = \sqrt{n}$  
+
