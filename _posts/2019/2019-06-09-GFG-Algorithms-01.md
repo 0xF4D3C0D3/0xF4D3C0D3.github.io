@@ -153,7 +153,7 @@ $$y'= \frac{2m^2 - n - m^2}{m^2} \because \Big(\frac{f(x)}{g(x)}\Big)'\to \frac{
 $$=\frac{m^2-n}{m^2}$$  
 $\therefore y' = 0$ when $m = \sqrt{n}$  
 
-## Code
+### Code
 ~~~ python
 def search_jump(iterable, x):
     """
@@ -184,7 +184,10 @@ def search_jump(iterable, x):
     return -1
 ~~~
 
-## Note
+### Note
 It only works with a sorted iterable. The time complexity is $O(\sqrt{n})$ which is between $O(n)$ and $O(Logn)$.
 So why does the jump search used in spite of binary search($O(Logn)$)? The jump search is faster when the target x is small.
 To be extreme, the binary search needs $Logn$ steps. But the jump search can do it in fewer steps.
+
+## Interpolation Search
+WIP TODO
