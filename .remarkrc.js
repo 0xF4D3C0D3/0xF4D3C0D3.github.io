@@ -1,6 +1,6 @@
 exports.plugins = [
   'remark-frontmatter',
-  'lint-recommended',
+  'lint-recommended'
 ]
 
 exports.settings = {
