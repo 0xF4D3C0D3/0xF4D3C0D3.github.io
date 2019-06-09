@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "remark-frontmatter",
+    "preset-lint-recommended",
+    ["lint-list-item-indent", "space"],
+    ["ordered-list-marker-value" "one"],
+  ]
+}
