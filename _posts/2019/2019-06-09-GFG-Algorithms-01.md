@@ -281,6 +281,7 @@ for t in tab:
     print()
 ~~~
 
+And the benchmark. the values in the cell represent the number of comparisons.
 ```
 search_binary_uni
 range   100     1000    10000   100000
@@ -315,4 +316,53 @@ count
 100000     388    6015    1838     323
 ```
 
-Did you see? In the uniformly distributed, the interpolation search is much faster!
+Did you see? In the uniformly distributed, the interpolation search is somewhat faster!
+
+### Note
+As you can see, in the worst case, its time complexity will be $O(n)$ (in exponential distributed).
+
+## Exponential Search
+Despite its name, this search runs in $O(Logn)$ time. The name comes from how it searches.
+
+### Approach
+0\. Assume that the given array is already sorted.  
+1\. Let the `end_index` is 1.  
+2\. Check the target value x in iterable[:`end_index`].  
+3-1. If it's in the range, do the binary search in the iterable[$\frac{`end_index`}{2}$:`end_index`]  
+3-2. If it's not in the range, double `end_index` and start to repeat from (2)  
+
+### Code
+~~~ python
+def search_exponential(iterable, x):
+    """
+    search_exponential gets an **sorted** iterable of positive integers as fisrt argument
+    and the target x as second argument. 
+    return matched index or -1 when it doesn't match with anything.
+    """
+    if iterable[0] == x:
+        return 0
+
+    len_ = len(iterable)
+    end_idx = 1
+    while end_idx < len_ and iterable[end_idx] <= x:
+        end_idx *= 2
+
+    return search_binary(iterable, x, end_idx // 2, min(end_idx, len_-1))
+    
+"""
+search_exponential([2, 3, 4, 10, 40], 40) -> 4
+search_exponential([1, 3, 6, 6, 133], 6) -> 3
+search_exponential([1, 2, 4, 4, 5, 6, 43, 1000], 100) -> -1
+search_exponential([5, 10, 15, 20, 25, 30], 25) -> 4
+>>> search_exponential([2, 2, 2, 4, 4, 5, 6, 6, 6, 7, 7, 8, 12, 16, 19, 19, 19, 20, 20, 21, 24, 26, 27, 27, 28, 29, 31, 32, 32, 34, 36, 36, 37, 37, 38, 39, 41, 43, 44, 44, 46, 47, 47, 48, 49, 50, 50, 50, 51, 52, 53, 54, 55, 56, 56, 60, 61, 63, 63, 66, 66, 68, 69, 70, 71, 71, 73, 77, 78, 78, 79, 79, 80, 80, 82, 82, 83, 83, 83, 84, 85, 85, 86, 86, 88, 88, 90, 91, 93, 93, 93, 93, 94, 94, 94, 95, 99, 100, 100, 100], 4)
+4
+>>> search_exponential([2, 2, 2, 4, 4, 5, 6, 6, 6, 7, 7, 8, 12, 16, 19, 19, 19, 20, 20, 21, 24, 26, 27, 27, 28, 29, 31, 32, 32, 34, 36, 36, 37, 37, 38, 39, 41, 43, 44, 44, 46, 47, 47, 48, 49, 50, 50, 50, 51, 52, 53, 54, 55, 56, 56, 60, 61, 63, 63, 66, 66, 68, 69, 70, 71, 71, 73, 77, 78, 78, 79, 79, 80, 80, 82, 82, 83, 83, 83, 84, 85, 85, 86, 86, 88, 88, 90, 91, 93, 93, 93, 93, 94, 94, 94, 95, 99, 100, 100, 100], 50)
+45
+>>> search_exponential([2, 2, 2, 4, 4, 5, 6, 6, 6, 7, 7, 8, 12, 16, 19, 19, 19, 20, 20, 21, 24, 26, 27, 27, 28, 29, 31, 32, 32, 34, 36, 36, 37, 37, 38, 39, 41, 43, 44, 44, 46, 47, 47, 48, 49, 50, 50, 50, 51, 52, 53, 54, 55, 56, 56, 60, 61, 63, 63, 66, 66, 68, 69, 70, 71, 71, 73, 77, 78, 78, 79, 79, 80, 80, 82, 82, 83, 83, 83, 84, 85, 85, 86, 86, 88, 88, 90, 91, 93, 93, 93, 93, 94, 94, 94, 95, 99, 100, 100, 100], 100)
+97
+"""
+~~~
+
+### Note
+The time complexity is $O(Log n)$. It's particularly useful when the dataset is unbounded.
+And it's also better than the binary search even in the bounded dataset, or when the target value is closer to the first element.
