@@ -15,9 +15,9 @@ This is about the first chapter of "Searching and Sorting". All pseudo code will
 ## Linear Search
 
 ### Approach
-1. Start from the leftmost of an array, compare target x with each element in the array.
-2-1. If x matches with an element, return the index.
-2-2. If x matched with none of elements, return `sentinel value` like -1 or 0.
+1\. Start from the leftmost of an array, compare target x with each element in the array.  
+2-1. If x matches with an element, return the index.  
+2-2. If x matched with none of elements, return `sentinel value` like -1 or 0.  
 
 ### Code
 ~~~ python
@@ -65,12 +65,12 @@ otherwise in the upper half.
 If there are no matched element till the length of the half is 1, return `sentinel value` like -1 or 0.
 
 ### Approach
-0. Assume that the given array is already sorted. (sorting is not responsibility of seaching)
-1. Start from the middle, compare it with the target x.
-2-1. If it matches, return the index of the middle.
-2-2. If it doesn't and is lower, repeat (1) in the lower half.
-2-3. If it doesn't and is upper, repeat (1) in the upper half.
-3. Until the length of the half is 1, if it doesn't match with anything then return `sentinel value` like -1 or 0.
+0\. Assume that the given array is already sorted. (sorting is not responsibility of seaching)  
+1\. Start from the middle, compare it with the target x.  
+2-1. If it matches, return the index of the middle.  
+2-2. If it doesn't and is lower, repeat (1) in the lower half.  
+2-3. If it doesn't and is upper, repeat (1) in the upper half.  
+3\. Until the length of the half is 1, if it doesn't match with anything then return `sentinel value` like -1 or 0.  
 
 ### Code
 ~~~ python
@@ -153,6 +153,13 @@ $$y'= \frac{2m^2 - n - m^2}{m^2} \because \Big(\frac{f(x)}{g(x)}\Big)'\to \frac{
 $$=\frac{m^2-n}{m^2}$$  
 $\therefore y' = 0$ when $m = \sqrt{n}$  
 
+### Approach
+0\. Assume that the given array is already sorted. (sorting is not responsibility of seaching)  
+1\. Choose block size as $\sqrt{n}$. the n is the length of the iterable.  
+2\. Traverse the iterables from the letfmost element by *block* size.  
+3\. If it passed the target value, then perform a linear search from the previous block.  
+4\. If nothing matches, return -1  
+
 ### Code
 ~~~ python
 def search_jump(iterable, x):
@@ -190,6 +197,14 @@ So why does the jump search used in spite of binary search($O(Logn)$)? The jump 
 To be extreme, the binary search needs $Logn$ steps. But the jump search can do it in fewer steps.
 
 ## Interpolation Search
-Linear search is $O(n)$, jump search is $O(\sqrt{n})$, binary search is $O(Logn)$, and interpolation search is also 
+Linear search is $O(n)$, jump search is $O(\sqrt{n})$, binary search is $O(Logn)$, and interpolation search is $O(Log Log n)$ or in worst case, $O(n)$
+How can the interpolation search run in $O(Log Log n)$ time? Well, the interpolation search also only works in the sorted iterable, and in the uniformly distributed iterable. Why is that? Unlike the binary search,
+the interpolation search not always start from the middle. Instead, it choose according to the difference between the target value and pivoted value. Let's look over the fomular below.
 
-WIP TODO
+$$pos = lo + \frac{x-arr[lo]}{arr[hi]-arr[lo]} (hi-lo)$$
+
+arr $\to$ array we want to search
+x $\to$ value we want to find
+lo $\to$ starting index
+hi $\to$ ending index
+
