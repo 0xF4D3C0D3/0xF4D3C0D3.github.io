@@ -373,3 +373,43 @@ Unlike the binary search has $O(Log_2n)$ time complexity, The ternary search has
 Next is the worst case of the binary search: $T(n) = T(n/2) + 2, T(1) = 1$  
 And this is the worst case of the ternary search: $T(n) = T(n/3) + 4, T(1) = 1$  
 
+### Approach
+This approach is the same as the binary search, except for dividing three parts, not two.
+
+### Code
+~~~ python
+def search_ternary(iterable, x, l=None, r=None):
+    """
+    search_ternary gets an **sorted** iterable of positive integers as fisrt argument
+    and the target x as second argument. 
+    return matched index or -1 when it doesn't match with anything.
+    """
+    if l is None:
+        l = 0
+    if r is None:
+        r = len(iterable) - 1
+    
+    if l <= r:
+        mid1 = l + (r-l)//3
+        mid2 = mid1 + (r-l)//3
+
+        
+        if iterable[mid1] == x:
+            return mid1
+        elif iterable[mid2] == x:
+            return mid2
+        elif iterable[mid1] > x:
+            return search_ternary(iterable, x, l, mid1-1)
+        elif iterable[mid2] < x:
+            return search_ternary(iterable, x, mid2+1, r)
+        else:
+            return search_ternary(iterable, x, mid1+1, mid2-1)
+    return -1
+    
+"""
+search_ternary([2, 3, 4, 10, 40], 40) -> 4
+search_ternary([1, 3, 6, 6, 133], 6) -> 2
+search_ternary([1, 2, 4, 4, 5, 6, 43, 1000], 100) -> -1
+search_ternary([5, 10, 15, 20, 25, 30], 25) -> 4
+"""
+~~~
