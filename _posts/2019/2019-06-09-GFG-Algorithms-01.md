@@ -203,8 +203,16 @@ the interpolation search not always start from the middle. Instead, it choose ac
 
 $$pos = lo + \frac{x-arr[lo]}{arr[hi]-arr[lo]} (hi-lo)$$
 
-arr $\to$ array we want to search
-x $\to$ value we want to find
-lo $\to$ starting index
-hi $\to$ ending index
+arr $\to$ array we want to search  
+x $\to$ value we want to find  
+lo $\to$ starting index  
+hi $\to$ ending index  
+
+### Approach
+0\. Assume that the given array is already sorted. (sorting is not responsibility of seaching)  
+1\. Find the next pos to prove by using above formula  
+2\. Compare it with the target value x  
+3-1. If it matches, return its index  
+3-2. If it doesn't match, perform (1)~(2) recursively.  
+4\. If nothing matches until lo is lower than hi and x is between arr[lo] and arr[hi]  
 
