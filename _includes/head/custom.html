@@ -23,9 +23,18 @@
 </script>
 
 <script type="text/javascript" defer src="/assets/js/headroom.js">
-	var head = document.querySelector(".masthead");
-	// construct an instance of Headroom, passing the element
-	var headroom  = new Headroom(head);
-	// initialise
-	headroom.init();
+	window.onload = function() {
+		var head = document.querySelector(".masthead");
+		// construct an instance of Headroom, passing the element
+		var headroom = new Headroom(elem, {
+		  "offset": 205,
+		  "tolerance": 5,
+		  "classes": {
+		    "initial": "animated",
+		    "pinned": "flipInX",
+		    "unpinned": "flipOutX"
+		  }
+		});
+		headroom.init();
+	};
 </script>
