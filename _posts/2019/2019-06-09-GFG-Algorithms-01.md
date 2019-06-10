@@ -328,7 +328,7 @@ Despite its name, this search runs in $O(Logn)$ time. The name comes from how it
 0\. Assume that the given array is already sorted.  
 1\. Let the `end_index` is 1.  
 2\. Check the target value x in iterable[:`end_index`].  
-3-1. If it's in the range, do the binary search in the iterable[ $\frac{`end_index`}{2}$ :`end_index`]  
+3-1. If it's in the range, do the binary search in the iterable\[$\frac{`end_index`}{2}$:`end_index`\]  
 3-2. If it's not in the range, double `end_index` and start to repeat from (2)  
 
 ### Code
@@ -366,3 +366,6 @@ search_exponential([5, 10, 15, 20, 25, 30], 25) -> 4
 ### Note
 The time complexity is $O(Log n)$. It's particularly useful when the dataset is unbounded.
 And it's also better than the binary search even in the bounded dataset, or when the target value is closer to the first element.
+
+## Ternary Search
+Unlike the binary search has $O(Log_2n)$ time complexity, The ternary search has $O(Log_3n)$.
