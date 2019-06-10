@@ -119,8 +119,10 @@ def search_binary(iterable, x, l=None, r=None):
     and the target x as second argument. 
     return matched index or -1 when it doesn't match with anything.
     """
-    l = l or 0  
-    r = r or len(iterable) - 1
+    if l is None:
+        l = 0
+    if r is None:
+        r = len(iterable) - 1
     
     if l <= r:
         mid = (l+r)//2
@@ -216,3 +218,101 @@ hi $\to$ ending index
 3-2. If it doesn't match, perform (1)~(2) recursively.  
 4\. If nothing matches until lo is lower than hi and x is between arr[lo] and arr[hi]  
 
+### Code
+~~~ python
+def search_interpolate(iterable, x):
+    """
+    search_interpolate gets an **sorted** and *uniformly distributed* iterable
+    of positive integers as fisrt argument and the target x as second argument. 
+    return matched index or -1 when it doesn't match with anything.
+    """
+    lo = 0
+    hi = len(iterable)-1
+    
+    while lo <= hi and iterable[lo] <= x <= iterable[hi]:
+        pos = int(lo + (hi-lo) * ((x - iterable[lo])/(iterable[hi] - iterable[lo])))
+        
+        if lo == hi:
+            if iterable[pos] == x:
+                return pos
+            else:
+                return -1
+        
+        if iterable[pos] == x:
+            return pos
+        elif iterable[pos] < x:
+            lo = pos + 1
+        else:
+            hi = pos - 1
+        
+    return -1
+~~~
+
+### Benchmark
+To check that is it really faster than the binary search in uniformly distributed and sorted iterable, I have benchmarked them. Below code is for benchmarking:
+
+~~~ python
+import random
+import pandas as pd
+
+uni = lambda i, j: sorted([int(random.uniform(1, 10**i)) for _ in range(10**j)])
+uni.__name__ = '_uni'
+exp = lambda i, j: sorted([int(((10**j) ** (1/(10**j))) ** k) for k in range(10**j)])
+exp.__name__ = '_exp'
+
+tab = {}
+for search in [search_binary, search_interpolate]:
+    for distribution in [uni, exp]:
+        name = search.__name__ + distribution.__name__
+        tab[name] = {}
+        for i in range(2, 6):
+            tab[name][10**i] = {}
+            for j in range(2, 6):
+                arr = distribution(i, j)
+                target = random.sample(arr, 1)[0]
+                tab[name][10**i][10**j] = search(arr, target)
+
+for t in tab:
+    print(t)
+    df = pd.DataFrame(tab[t])
+    df.index.name = 'count'
+    df.columns.name = 'range'
+    print(df)
+    print()
+~~~
+
+```
+search_binary_uni
+range   100     1000    10000   100000
+count                                 
+100          5       3       4       6
+1000         3       4       8       8
+10000        5       8      10      12
+100000       5       7      12      14
+
+search_interpolate_uni
+range   100     1000    10000   100000
+count                                 
+100          1       1       1       4
+1000         2       5       3       1
+10000        1       2       3       4
+100000       1       2       2       5
+
+search_binary_exp
+range   100     1000    10000   100000
+count                                 
+100          5       3       2       1
+1000         5       3       3       7
+10000        4       8       5      13
+100000      14       7      15      15
+
+search_interpolate_exp
+range   100     1000    10000   100000
+count                                 
+100          1      12       7       7
+1000         1      14      98       1
+10000       18       1     427      97
+100000     388    6015    1838     323
+```
+
+Did you see? In the uniformly distributed, the interpolation search is much faster!
