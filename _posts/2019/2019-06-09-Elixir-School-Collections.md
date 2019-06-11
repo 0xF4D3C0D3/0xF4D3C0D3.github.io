@@ -64,5 +64,100 @@ iex> [2.0] -- [2.0]
 Note that list subtraction in Elixir uses strictly comparison `===`.
 
 ### Head / Tail
+~~~ elixir
+iex> hd [3.14, :pie, "Apple"]
+3.14
+iex> tl [3.14, :pie, "Apple"]
+[:pie, "Apple"]
+~~~
+Elixir provides two useful functions `hd` and `tl` to split the head and the tail of the list.
 
-WIP TODO
+Or you can also use `pattern matching` and the cons operator `|` to split a list into head and tail:  
+~~~ elixir
+iex> [head | tail] = [3.14, :pie, "Apple"]
+[3.14, :pie, "Apple"]
+iex> head
+3.14
+iex> tail
+[:pie, "Apple"]
+~~~
+
+## Tuples
+While a list is expensive when access, a tuple is cheap due to its elements are contiguous in memory. But because of that, a tuple is expensive to modification. Tuples are defined by curly braces:  
+~~~ elixir
+iex> {3.14, :pie, "Apple"}
+{3.14, :pie, "Apple"}
+~~~
+
+Tuple is especially useful when return multiple values as follows:  
+~~~ elixir
+iex> File.read("path/to/existing/file")
+{:ok, "... contents ..."}
+iex> File.read("path/to/unknown/file")
+{:error, :enoent}
+~~~
+and the usefulness of this will be more clear when we see `pattern matching`
+
+## Keyword lists
+Keyword lists and maps are `the associative collection`. That means a keyword list is just list of two-element tuples whose first element is atom. Therefore a keyword list shares its performance with a list.
+~~~ elixir
+iex> [foo: "bar", hello: "world"]
+[foo: "bar", hello: "world"]
+iex> [{:foo, "bar"}, {:hello, "world"}]
+[foo: "bar", hello: "world"]
+~~~
+Note that its characteristics:
+- Keys are atoms
+- Keys are ordered
+- Keys are do not have to be unique
+
+Thanks to its characteristics, it's commonly used to pass options to functions.
+
+## Maps
+Maps are "go-to" key-value store. Unlike keyword lists, they can accept any type or unordered as key; they use `%{}` syntax.
+~~~ elixir
+iex> map = %{:foo => "bar", "hello" => :world}
+%{:foo => "bar", "hello" => :world}
+iex> map[:foo]
+"bar"
+iex> map["hello"]
+:world
+~~~
+
+As of Elixir 1.2, variables are allowed as map keys:
+~~~ elixir
+iex> key = "hello"
+"hello"
+iex> %{key => "world"}
+%{"hello" => "world"}
+~~~
+
+When the inserted value is duplicated, the original is replaced with it.
+~~~ elixir
+iex> %{:foo => "bar", :foo => "hello world"}
+%{foo: "hello world"}
+~~~
+
+As you can see in the above, elixir provides a special syntax for maps containing only atom keys.
+~~~ elixir
+iex> %{foo: "bar", hello: "world"}
+%{foo: "bar", hello: "world"}
+iex> %{foo: "bar", hello: "world"} == %{:foo => "bar", :hello => "world"}
+true
+~~~
+
+Moreover provides a special syntax for accessing atom keys too!
+~~~ elixir
+iex> map = %{foo: "bar", hello: "world"}
+%{foo: "bar", hello: "world"}
+iex> map.hello
+"world"
+~~~
+
+At last, one of their interesting properties, they have their own syntax for updating value.
+~~~ elixir
+iex> map = %{foo: "bar", hello: "world"}
+%{foo: "bar", hello: "world"}
+iex> %{map | foo: "baz"}
+%{foo: "baz", hello: "world"}
+~~~
