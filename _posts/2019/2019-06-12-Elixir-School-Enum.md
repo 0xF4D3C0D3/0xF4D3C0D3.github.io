@@ -29,6 +29,8 @@ at/3
 This shows `Enum` module really provides many functions. The reason is that enumeration is core of functional programming.
 And also this represents you can treat documentation as a first citizen object. When laziness is needed, use the `Stream` module.
 
+## Enum
+
 ### all?
 When using most functions of `Enum`, we pass a function to apply to items in the collections.
 ~~~ elixir
@@ -114,4 +116,52 @@ iex> Enum.max([], fn -> :bar end)
 :bar
 ~~~
 
+### filter
+`filter` leaves only elements that are evaluated as true by provided function. 
+~~~ elixir
+iex> Enum.filter([1, 2, 3, 4], fn(x) -> rem(x, 2) == 0 end)
+[2, 4]
+~~~
 
+### reduce
+By using `reduce/3` we can compress the collection's values into a single value. To do this, we could pass the *accumulator*.
+when it's empty `reduce/3` will use the first element as an accumulator.
+~~~ elixir
+iex> Enum.reduce([1, 2, 3], 10, fn(x, acc) -> x + acc end)
+16
+
+iex> Enum.reduce([1, 2, 3], fn(x, acc) -> x + acc end)
+6
+
+iex> Enum.reduce(["a","b","c"], "1", fn(x,acc)-> x <> acc end)
+"cba1"
+~~~
+
+### sort
+Sorting the collection is quite simple, by using two sorting functions.
+`sort/1` uses Erlang's term ordering to determine the sorted order:
+~~~ elixr
+iex> Enum.sort([5, 6, 1, 3, -1, 4])
+[-1, 1, 3, 4, 5, 6]
+
+iex> Enum.sort([:foo, "bar", Enum, -1, 4])
+[-1, 4, Enum, :foo, "bar"]
+~~~
+
+Instead of it, we can provide our custom ordering function.
+~~~ elixir
+# with our function
+iex> Enum.sort([%{:val => 4}, %{:val => 1}], fn(x, y) -> x[:val] > y[:val] end)
+[%{val: 4}, %{val: 1}]
+
+# without
+iex> Enum.sort([%{:count => 4}, %{:count => 1}])
+[%{count: 1}, %{count: 4}]
+~~~
+
+### uniq_by
+To make the collection's elements be unique, we can use `uniq_by/2` function.
+~~~ elixir
+iex> Enum.uniq_by([1, 2, 3, 2, 1, 1, 1, 1, 1], fn x -> x end)
+[1, 2, 3]
+~~~
