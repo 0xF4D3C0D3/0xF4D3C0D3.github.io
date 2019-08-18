@@ -4,7 +4,7 @@ date: 2019-07-17 21:00:00 +0900
 categories: Doc Reference
 ---
 
-Sometimes you have to deal with either NaN and integer, so do I. In my case, I was requested to print large Dataframe that has NaN but also as an
+Sometimes you have to deal with both NaN and integer, so do I. In my case, I was requested to print large Dataframe that has NaN but also as an
 integer type. If you came from before 0.24, it would be quite a challenge already you know. You have a several options. First convert the 
 column into string type or object. However, it's just trickery and you can't manipulate it as numeric no more. Or second, rounding it with 
 0 precision. But Dataframe always prints trailing ".0" when it's a float type. So if you've searched deeper, you would have tried ".style".
