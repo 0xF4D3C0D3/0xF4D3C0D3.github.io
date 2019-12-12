@@ -25,6 +25,7 @@ This blog will be used with mainly 4 categories as follows:
 - Study:
   - Programming / Design / Algorithm
   - OS / Network / Security / DB
+  - Shell / Server / IaC / CI·CD / AWS / DevOps
   - English / Math / Science
 - Life:
   - Music / Philosophy / News
