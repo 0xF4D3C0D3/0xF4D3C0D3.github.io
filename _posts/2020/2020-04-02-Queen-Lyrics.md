@@ -2031,62 +2031,365 @@ Am I dreaming?
 Oooh, it's bliss
 ```
 
-# DDIA
+# Freddie Mercury
+## Mr. Bad Guy - 1985/04/29
+### Foolin' Around
 ```
-The Internet was done so well that most people think of it as a natural resource like the
-Pacific Ocean, rather than something that was man-made. When was the last time a technology
-with a scale like that was so error-free?
-—Alan Kay, in interview with Dr Dobb’s Journal (2012)
+You're so beautiful you just lay it on me
+Foxy lady you really are the greatest show in town
+You want to play
+You wanna eat your cake and have it your way
+You got it easy and you don't give a damn
+Foolin' around you just keep foolin' around with me
+Keep on foolin' around with me baby
+Walking down the street people watching closely
+Such a tease you can turn on any man you want (de do de do)
+You masquerade
+You're the catch of the season every night and day
+You you you don't have any time for me
+You just keep foolin' around with me
+Yes you do you do to me
+Foolin' around (de do) - everywhere I go you're the only only only sexy lady
+Foolin' around (de do de do) all you do is keep me hanging around
+You're really so hard to please yeah
+You've gotta really watch that baby!
+Yeah yeah wow
+Yeah yeah
+You just you just foolin' around with me
+You just you just foolin' around with me
+You keep foolin' you keep foolin'
+Hey foolin' foolin' foolin' foolin' foolin' yeah
+Want to play but you always want it all your own way
+You got it easy but you don't give a damn
+Foolin' around you just keep fooling around with me
+Just keep foolin' around with me yeah
+I'm a fool fool fool fool for you baby keep foolin' around yeah yeah
+I'm a fool fool fool for you sexy baby keep foolin' around
+I'm a fool fool fool - baby hangin' around
+I'm a fool fool fool fool for you baby keep foolin' around
+```
 
-The limits of my language mean the limits of my world.
-—Ludwig Wittgenstein, Tractatus Logico-Philosophicus (1922)
+### Mr. Bad Guy
+```
+One, two, three, four
+You're trespassing this is not okay
+Wrong invitation
+Better not stick around my alley way
+I'm Mr Bad Guy
+Yes I'm everybody's Mr Bad Guy
+Defend yourself I bring catastrophe
+Oh it's the only way to live from day to day
+Your big daddy he big business man
+No recommendation
+Feel like the president of the USA
+I'm Mr Bad Guy
+Yes I'm everybody's Mr Bad Guy
+Defend yourself I bring catastrophe
+Oh it's the only way to live from day to day
+I'm Mr Bad Guy
+They're all afraid of me
+I can ruin peoples lives yeah yeah
+Mr Bad Guy don't go upsetting me
+I can make you lose your mind
+Posses you any time
+I'm Mr Bad Guy Mr Bad Guy bad guy
+Everyone's afraid of me
+Everyone's afraid of me
+Yes I'm Mr Bad Guy
+Yes I'm everybody's Mr Bad Guy
+Defend yourself I bring catastrophe
+Oh it's the only way to live from day to day
+```
 
-Wer Ordnung hält, ist nur zu faul zum Suchen.
-(If you keep things tidily ordered, you’re just too lazy to go searching.)
-—German proverb
+### Man Made Paradise
+```
+I want to gaze into your eyes and see the fire in their glow
+But it's the same old story
+Want you to melt inside my arms like falling rain upon the snow
+But you say no, you say no
+Want you to help me through deep waters when my ship is in a storm
+Want you to give me all the power like a king on his throne
+But you don't care, you don't care
+History repeats itself, I seem to be all by myself again.
+Come into my life, it's a manmade paradise
+Come into my life, it's a manmade paradise
+Come into my life, it's a manmade paradise
+Come into my life, it's a manmade paradise, paradise
+One day I'll look into your mind and understand which way to go
+But it's the same old story
+When you refuse me all the time I'm suicidal on my own
+But you don't know, you don't know
+I want to be beside you now, lie in the stand and kiss your brow
+I want to fly beyond the moon and do the things we do for love
+But you don't care, you don't care
+History repeats itself, I seem to be all by myself again.
+Come into my life, it's a manmade paradise
+Come into my life, it's a manmade paradise
+Come into my life, it's a manmade paradise
+Come into my life, it's a manmade paradise, paradise
+I want to be beside you now, lie in the stand and kiss your brow
+I want to fly beyond the moon and do the things we do for love
+But you say no, you say no
+History repeats itself, I seem to be all by myself again.
+```
 
-Everything changes and nothing stands still.
-—Heraclitus of Ephesus, as quoted by Plato in Cratylus (360 BCE)
+### Living on My Own
+```
+Dee do dee do day
+Dee do dee do dee do dee do day oh
+Sometimes I feel I'm gonna break down and cry, so lonely
+Nowhere to go, nothing to do with my time
+I get lonely, so lonely, living on my own.
+Sometimes I feel I'm always walking too fast, so lonely
+And everything is coming down on me, down on me, I go crazy
+Oh so crazy, living on my own.
+Dee do de de, dee do de de
+I don't have no time for no monkey business
+Dee do de de, dee do de de
+I get so lonely, lonely, lonely, lonely, yeah
+Got to be some good times ahead
+Sometimes I feel nobody gives me no warning
+Find my head is always up in the clouds in a dreamworld
+It's not easy, living on my own, my own, my own
+Dee do de de (lonely), dee do de de (lonely)
+I don't have no time for no monkey business
+Dee do de de, dee do de de
+I get so lonely, lonely, lonely, lonely, yeah
+Got to be some good times ahead
+C'mon baby
+Dee do de de, dee do de de
+I don't have no time for no monkey business
+Dee do de de, dee do de de
+I get so lonely, lonely, lonely, lonely, yeah
+Got to be some good times ahead
+Yeah baby
+Di di di di
+Dibby dibby du-wop du-wop
+yeah y-y-y-y-y-y-ow-yeah
+Living on my own, living on my own
+Living on my own, living on my own, wooh
+da, day, day, day, day
+di, di, di, di, di, di, di
+Be-dop, be-dop, be-dop, be-dop
+Be-dop, be-dop, be-dop, be-dop
+Be-dop, be-dop, be-dop, be-dop
+Woh!
+```
 
-The major difference between a thing that might go wrong and a thing that cannot possibly
-go wrong is that when a thing that cannot possibly go wrong goes wrong it usually turns out
-to be impossible to get at or repair.
-—Douglas Adams, Mostly Harmless (1992)
+### My Love Is Dangerous
+```
+My love is dangerous, dangerous, my love is dangerous,
+Always make you bleed, always makes you bleed,
+Always make you bleed, love is dangerous.
+Don't follow in my footsteps, you don't belong to me
+You only make a mistake, don't try and understand me,
+Don't try and understand me, all I'm trying to say
+My love is dangerous, dangerous, love is dangerous
+Make everybody cry, everybody cry
+Everybody cry, love is dangerous.
+Don't waste your time with loving, love don't work for me
+Don't try to show your feelings
+Step carefully, step carefully, all I'm trying to say:
+My love is dangerous, because I'm your enemy
+Watch your step carefully
+'Cause I know, I know, I know, I know, I know me
+Dangerous, no can give you guarantee, I'm your one day ecstasy
+Next day no
+Dangerous, ooo dangerous, Love is dangerous,
+Love is dangerous, love is dangerous,
+All I'm really trying to say to you, love is dangerous
+No go play fire with me, fire dance for me
+You no can take a pisstake
+Don't go criricise me, no go analyze me,
+All I'm trying to say
+My love is dangerous, because I'm your enemy
+Watch your step carefully
+'Cause I know, I know, I know, I know, I know me
+Dangerous, no can give you guarantee, I'm your one day ecstasy
+Next day no
+Dangerous, dangerous, my love is dangerous
+Always make you bleed
+Always make you bleed
+Always make you bleed
+Love is
+```
 
-Clearly, we must break away from the sequential and not limit the computers. We must
-state definitions and provide for priorities and descriptions of data. We must state relationships,
-not procedures.
-—Grace Murray Hopper, Management and the Computer of the Future (1962)
+### Love Me Like There's No Tomorrow
+```
+You had to kill the conversation
+You always had the upper hand
+Got caught in love and stepped in sinking sand
+You had to go and ruin all our plans
+Packed your bags and you're leaving home
+Got a one-way ticket and you're all set to go
+But we have one more day together, so
+Love me like there's no tomorrow
+Hold me in your arms, tell me you mean it
+This is our last goodbye and very soon it will be over
+But today just love me like there's no tomorrow
+I guess we drift alone in separate ways
+I don't have all that far to go
+God knows I learnt to play the lonely man
+I've never felt so low in all my life
+We were born to be just losers
+So I guess there's a limit on how far we go
+But we only have one more day together so
+Love me like there's no tomorrow
+Hold me in your arms, tell me you mean it
+This is our last goodbye and very soon it will be over
+But today just love me like there's no tomorrow
+Tomorrow god knows just where I'll be
+Tomorrow who knows just what's in store for me
+Anything can happen but we only have one more day together, yeah
+Just one more day forever, so
+Love me like there's no tomorrow
+Hold me in your arms, tell me you mean it
+This is our last goodbye and very soon it will be over
+But today just love me like there's no tomorrow
+```
 
-Some authors have claimed that general two-phase commit is too expensive to support,
-because of the performance or availability problems that it brings. We believe it is better to
-have application programmers deal with performance problems due to overuse of transactions
-as bottlenecks arise, rather than always coding around the lack of transactions.
-—James Corbett et al., Spanner: Google’s Globally-Distributed Database (2012)
+## Singles
+### Love Kills - 1984/09/10
+```
+Love don't give no compensation
+Love don't pay no bills
+Love don't give no indication
+Love just won't stand still
+Love kills, drills you through your heart
+Love kills, scars you from the start
+It's just a living pastime
+Ruining your heartline
+Stays for a lifetime won't let you go
+Cause love (love) love (love) love won't leave you alone
+Love won't take no reservations
+Love is no square deal
+Hey love don't give no justification
+It strikes like cold steel
+Love kills, drills you through your heart
+Love kills, scars you from the start
+It's just a living pastime
+Burning your lifeline
+Gives you as hard time won't let you go
+Cause love (love) love (love) love won't leave you alone
+Hey love can play with your emotions
+Open invitation to your heart
+Hey love kills
+Play with your emotions
+Open invitation to your heart to your heart
+Love kills love kills
+Hey hey
+Love kills (love kills)
+Love kills (kills kills kills)
+Love can play with your emotions
+Open invitation
+Love kills, hey, drills you through your heart
+Love kills, scars you from the start
+It's just a living pastime
+Ruining your heartline
+Won't let you go
+Love kills, hey, drills you through your heart
+Love kills, tears you right apart
+It won't let go it won't let go
+Love kills, yeah
+```
 
-Hey I just met you
-The network’s laggy
-But here’s my data
-So store it maybe
-—Kyle Kingsbury, Carly Rae Jepsen and the Perils of Network Partitions (2013)
+### Time - 1986/05/06
+```
+Time waits for nobody
+Time waits for nobody
+We all must plan our hopes together
+And we'll have no more future at all
+Time waits for nobody
+We might as well be deaf and dumb and blind
+I know that sounds unkind
+But it seems to me
+We've not listened to
+Or spoken about it at all
+The fact that time was running out for us all
+Time waits for nobody
+Time waits for no one
+We've got to build this world together
+Or we'll have no more future at all
+Because time
+It waits for nobody
+Nobody
+You don't need me to tell you what's gone wrong
+You know what's going on
+And it seems to me we've not cared enough
+Or confided in each other at all
+It seems like we've all got our backs against the wall
+Time waits for nobody
+Time waits for no one
+We've got to trust one another
+Or we'd have no more future at all
+Because time
+Waits for nobody
+Waits for nobody
+Time waits for no one
+Best not to be friends with one another
+Or we'd have no more future at all
+Time waits for nobody
+For nobody, nobody, nobody
+For no one
+```
 
-Is it better to be alive and wrong or right and dead?
-—Jay Kreps, A Few Notes on Kafka and Jepsen (2013)
+### The Great Pretender - 1987/02/23
+```
+Oh yes, I'm the great pretender
+Pretending that I'm doing well
+My need is such; I pretend too much
+I'm lonely but no one can tell.
+Oh yes, I'm the great pretender
+A drift in a world of my own
+I play the game; but to my real shame
+You've let me to dream all alone.
+Too real is this feeling of make believe
+Too real when I feel what my heart can't conceal.
+Oh yes I'm the great pretender
+Just laughing and gay like a clown
+I seem to be what I'm not; you see
+I'm wearing my heart like a crown
+Pretending that you're still around.
+Too real is this feeling of make believe
+Too real when I feel what my heart can't conceal
+Yes I'm the great pretender
+Just laughing and gay like a clown
+I seem to be what I'm not you see
+I'm wearing my heart like a crown
+Pretending that you're still around
+```
 
-A system cannot be successful if it is too strongly influenced by a single person. Once the
-initial design is complete and fairly robust, the real test begins as people with many different
-viewpoints undertake their own experiments.
-—Donald Knuth
-
-A complex system that works is invariably found to have evolved from a simple system that
-works. The inverse proposition also appears to be true: A complex system designed from
-scratch never works and cannot be made to work.
-—John Gall, Systemantics (1975)
-
-If a thing be ordained to another as to its end, its last end cannot consist in the preservation
-of its being. Hence a captain does not intend as a last end, the preservation of the ship
-entrusted to him, since a ship is ordained to something else as its end, viz. to navigation.
-(Often quoted as: If the highest aim of a captain was the preserve his ship, he would keep it
-in port forever.)
-—St. Thomas Aquinas, Summa Theologica (1265–1274)
+### In my defence - 1986
+```
+In my defence what is there to say
+All the mistakes we made must be faced today
+It's not easy now knowing where to start
+While the world we love tears itself apart
+I'm just a singer with a song
+How can I try to right the wrong
+For just a singer with a melody
+I'm caught in between
+With a fading dream
+In my defence what is there to say
+We destroy the love - it's our way
+We never listen enough never face the truth
+Then like a passing song
+Love is here and then it's gone
+I'm just a singer with a song
+How can I try to right the wrong
+For just a singer with a melody
+I'm caught in between
+With a fading dream
+I'm just a singer with a song
+How can I try to right the wrong
+I'm just a singer with a melody
+I'm caught in between with a fading dream
+Caught in between with a fading dream
+Caught in between with a fading dream
+Oh what on earth
+Oh what on earth
+How do I try
+Do we live or die
+Oh help me God
+Please help me
 ```
