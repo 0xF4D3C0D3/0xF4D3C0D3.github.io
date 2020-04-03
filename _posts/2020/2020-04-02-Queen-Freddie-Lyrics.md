@@ -1,5 +1,5 @@
 ---
-title: "Quotes"
+title: "Queen & Freddie Lyrics"
 date: 2020-04-02 11:18:00 +0900
 categories: Reference
 toc: true
