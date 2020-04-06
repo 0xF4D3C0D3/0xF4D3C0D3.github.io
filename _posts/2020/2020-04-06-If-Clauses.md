@@ -16,23 +16,23 @@ toc_label: "Table Of Contents"
 # Type 1 []
 
 1. If he hugs me, I’ll hug him back.
-2-1. If he remembers his own name, we’ll be able to help him.
-2-2. Should he remember his own name, we’ll be able to help him.
+2.1. If he remembers his own name, we’ll be able to help him.
+2.2. Should he remember his own name, we’ll be able to help him.
 
 
 # Type 2 []
 
 1. If I was taller, I’d be much better at this sport.
-2-1. If he pushed the button, we’d all have problems.
-2-2. Were he to push the button, we’d all have problems.
+2.1. If he pushed the button, we’d all have problems.
+2.2. Were he to push the button, we’d all have problems.
 3. If I was ridiculously rich, I think I’d still work.
 
 
 # Type 3 []
 
 1. If I’d been more careful, I wouldn’t have got into trouble with Shady Nick.
-2-1. If we’d arrived sooner, we wouldn’t have missed the beginning.
-2-2. Had we arrived sooner, we wouldn’t have missed the beginning.
+2.1. If we’d arrived sooner, we wouldn’t have missed the beginning.
+2.2. Had we arrived sooner, we wouldn’t have missed the beginning.
 
 
 # Mixed []
