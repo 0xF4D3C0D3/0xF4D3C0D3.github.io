@@ -17,4 +17,4 @@ Nyan [^1]
 
 # Type 3
 
-[^1] LOL
+[^1]: LOL
