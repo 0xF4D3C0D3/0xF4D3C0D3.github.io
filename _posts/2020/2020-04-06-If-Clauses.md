@@ -2,10 +2,6 @@
 title: "If clauses"
 date: 2020-04-06 18:05:00 +0900
 categories: Reference
-kramdown:
-    syntax_highlighter_opts:
-        block:
-            line_numbers: false
 toc: true
 toc_label: "Table Of Contents"
 ---
@@ -13,9 +9,9 @@ toc_label: "Table Of Contents"
 > All sentences are from the internet, I'll notate its reference below.
 
 # Type 0
-```
+{% highlight %}
 1. If it rains, the ground gets wet.
-```
+{% endhighlight %}
 
 # Type 1
 ```
