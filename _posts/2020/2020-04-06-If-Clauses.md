@@ -2,12 +2,15 @@
 title: "If clauses"
 date: 2020-04-06 18:05:00 +0900
 categories: Reference
-minimal_mistakes_skin: "default"
+kramdown:
+    syntax_highlighter_opts:
+        block:
+            line_numbers: false
 toc: true
 toc_label: "Table Of Contents"
 ---
 
-> All sentences from the internet, I'll notate its reference below.
+> All sentences are from the internet, I'll notate its reference below.
 
 # Type 0
 ```
