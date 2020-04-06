@@ -2,25 +2,26 @@
 title: "If clauses"
 date: 2020-04-06 18:05:00 +0900
 categories: Reference
+minimal_mistakes_skin: "default"
 toc: true
 toc_label: "Table Of Contents"
 ---
 
-> All sentences from the internet, I'll notate its reference below .
+> All sentences from the internet, I'll notate its reference below.
 
-# Type 0 []
+# Type 0
 ```
 1. If it rains, the ground gets wet.
 ```
 
-# Type 1 []
+# Type 1
 ```
 1. If he hugs me, I’ll hug him back.
 2-1. If he remembers his own name, we’ll be able to help him.
 2-2. Should he remember his own name, we’ll be able to help him.
 ```
 
-# Type 2 []
+# Type 2
 ```
 1. If I was taller, I’d be much better at this sport.
 2-1. If he pushed the button, we’d all have problems.
@@ -28,14 +29,14 @@ toc_label: "Table Of Contents"
 3. If I was ridiculously rich, I think I’d still work.
 ```
 
-# Type 3 []
+# Type 3
 ```
 1. If I’d been more careful, I wouldn’t have got into trouble with Shady Nick.
 2-1. If we’d arrived sooner, we wouldn’t have missed the beginning.
 2-2. Had we arrived sooner, we wouldn’t have missed the beginning.
 ```
 
-# Mixed []
+# Mixed
 ```
 1-1. If the driver were faster, we would’ve arrived ages ago.
 1-2. Were the driver faster, we would’ve arrived ages ago. 
@@ -43,7 +44,7 @@ toc_label: "Table Of Contents"
 2-2. Had we got just one more signature, we’d be on target now.
 ```
 
-# Negative []
+# Negative
 ```
 1-1. Should Batman come, we’ll escape! [First conditional]
 1-2. Should Batman not come, we’re in big trouble. But don’t worry, he always comes.
