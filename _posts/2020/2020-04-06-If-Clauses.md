@@ -9,8 +9,8 @@ toc_label: "Table Of Contents"
 > All sentences are from the internet, I'll notate its reference below.
 
 # Type 0
-{% highlight %}
-1. If it rains, the ground gets wet.d
+{% highlight text %}
+1. If it rains, the ground gets wet.
 {% endhighlight %}
 
 # Type 1
