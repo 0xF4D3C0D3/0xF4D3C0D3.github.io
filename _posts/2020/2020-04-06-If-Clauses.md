@@ -10,7 +10,7 @@ toc_label: "Table Of Contents"
 
 # Type 0
 {% highlight %}
-1. If it rains, the ground gets wet.
+1. If it rains, the ground gets wet.d
 {% endhighlight %}
 
 # Type 1
